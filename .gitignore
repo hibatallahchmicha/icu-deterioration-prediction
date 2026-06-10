@@ -1,0 +1,75 @@
+# ========================
+# DATA - Never push to GitHub
+# ========================
+data/
+*.csv
+*.zip
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# ========================
+# Virtual Environment
+# ========================
+venv/
+env/
+.env
+.venv
+ENV/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# Models & Outputs (large files)
+# ========================
+models/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pb
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+runs/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+Projet_DS 1.docx
